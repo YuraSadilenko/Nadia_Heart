@@ -1,0 +1,12 @@
+.about-me {
+  text-align: center;
+
+  &__title {
+    margin-bottom: 3rem;
+  }
+
+  &__photo {
+    max-width: 300px;
+    margin-bottom: 4rem;
+  }
+}

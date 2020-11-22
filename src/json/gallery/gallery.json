@@ -1,0 +1,19 @@
+[
+  {
+    "intro": "./src/images/residents_of_the_city_nadia heart.jpg",
+    "alt": "Серия 1",
+    "title": "Серия 1",
+    "name": "Название серии",
+    "description": "Описание голубей",
+    "href": "./series_residents_of_the_city.php"
+
+  },
+  {
+    "intro": "./src/images/hands.jpg",
+    "alt": "Серия 2",
+    "title": "Серия 2",    
+    "name": "Имя рук",
+    "description": "Описание голубей",
+    "href": "./incognito.php"
+  }
+]

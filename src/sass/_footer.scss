@@ -1,0 +1,25 @@
+.footer {
+  padding: 50px 0 0 0;
+  box-shadow: inset 0rem -8rem 4rem -5rem gray;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__downside {
+    @extend .flex-between;
+
+    &-box {
+      padding: 10px 0;
+    }
+
+    & a {
+      @extend .text-decor-none;
+
+      &:hover {
+        @extend .text-decor-none;
+      }
+    }
+  }
+}   
