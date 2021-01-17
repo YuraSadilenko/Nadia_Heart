@@ -1,14 +1,45 @@
-.cont {  
-  max-width: 1280px;
-  margin: 0 auto;
+//Grid 
 
-  @media (max-width: 1281px) {
-    max-width: 1024px;
-  }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  &-fluid {
-    max-width: 100%;
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 50px;
+}
+
+.col-md-4,
+.col-md-7,
+.col-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-md-4 {
+  flex: 0 0 33%;
+  max-width: 33%;
+}
+
+.col-md-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 

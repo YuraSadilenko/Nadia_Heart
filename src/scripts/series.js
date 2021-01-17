@@ -1,5 +1,5 @@
 (() => {
-  var block = document.getElementById('gallery-box');
+  var block = document.getElementById('series-box');
   var picturesRequest = new XMLHttpRequest();
 
     
@@ -9,7 +9,7 @@
       renderHtml(pictures);
     }
   };
-  picturesRequest.open('GET', './src/json/gallery/gallery.json', true);
+  picturesRequest.open('GET', './src/json/series/city_resident.json', true);
   picturesRequest.send();
    
   function renderHtml(data) {
@@ -20,9 +20,9 @@
       htmlString += 
       `
       <div class="col-md-4">
-        <div class="gallery__item">
-          <a class="gallery__link" href="${data[i].href}"><img class="gallery__main-img" src="${data[i].intro}" alt="${data[i].alt}" title="${data[i].title}"></a>
-          <h2 class="gallery__name">${data[i].name}</h2>
+        <div class="series__item">
+          <a class="series__link" href="${data[i].href}"><img class="series__main-img" src="${data[i].intro}" alt="${data[i].alt}" title="${data[i].title}"></a>
+          <h2 class="series__name">${data[i].name}</h2>
         </div>
       </div>
       

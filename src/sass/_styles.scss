@@ -2,6 +2,8 @@ $header-font: 'Main Header';
 $main-font: 'Playfair';
 $footer-bg: rgb(141, 141, 141);
 
+
+
 //Class for centering elements with flex tech.
 .centered {
   display: flex;
@@ -49,7 +51,7 @@ a {
   font-family: $header-font;
 
   &__sub {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 100;
   }
 }
@@ -72,6 +74,7 @@ a {
   animation-delay: .85s;
   animation-fill-mode: forwards;
 }
+
 
 @keyframes opacityOn {
   0% {

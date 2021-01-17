@@ -1,4 +1,4 @@
-const gulp = require("gulp");;;;;
+const gulp = require("gulp");
  sass = require("gulp-sass"),
  browserSync = require("browser-sync"),
  plumber = require("gulp-plumber"),

@@ -1,0 +1,17 @@
+[
+  {
+    "intro": "./src/images/residents_of_the_city_nadia heart.jpg",
+    "alt": "Работа Серии 1",
+    "title": "Работа Серии 1",
+    "name": "Pigeons",
+    "description": "Описание голубей"
+  },
+  {
+    "intro": "./src/images/residents mockup.jpg",
+    "alt": "Работа Серии 2",
+    "title": "Работа Серии 2",
+    "name": "Pigeons 2",
+    "description": "Описание голубей"
+  }
+  
+]
