@@ -16,7 +16,7 @@
     <nav class="navigation">
 
       <div class="navigation__left">
-        <video id="navigation_video" class="video" loop autoplay="autoplay" muted>
+        <video id="navigation_video" class="header__video" loop autoplay="autoplay" muted>
           <source src="./src/video/navigation-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
         </video>
       </div>

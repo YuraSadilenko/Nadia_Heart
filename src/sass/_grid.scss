@@ -29,11 +29,20 @@
 .col-md-4 {
   flex: 0 0 33%;
   max-width: 33%;
+
+  @media(max-width: 425px) {
+    flex: 0 0 100%;
+    width: 100%;
+  }
 }
 
 .col-md-7 {
   flex: 0 0 58.333333%;
   max-width: 58.333333%;
+
+  @media(max-width: 425px) {
+    flex: 0 0 100%;
+  }
 }
 
 .col-12 {
@@ -41,5 +50,6 @@
   flex: 0 0 100%;
   max-width: 100%;
 }
+
 
 

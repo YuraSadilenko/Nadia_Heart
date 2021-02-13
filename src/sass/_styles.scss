@@ -75,6 +75,17 @@ a {
   animation-fill-mode: forwards;
 }
 
+html{
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+}
+
 
 @keyframes opacityOn {
   0% {

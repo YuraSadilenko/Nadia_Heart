@@ -115,8 +115,3 @@
 
   <?php include("./src/includes/footer.php"); ?>
 
-  <script src="./src/scripts/video.js"></script>
-  <script src="./src/scripts/scripts.js"></script>
-</body>
-
-</html>

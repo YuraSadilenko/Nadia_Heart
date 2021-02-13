@@ -21,6 +21,7 @@
     "pump": "^3.0.0"
   },
   "dependencies": {
+    "jquery": "^2.2.0",
     "readable-stream": "^3.4.0"
   }
 }

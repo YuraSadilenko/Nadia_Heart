@@ -20,3 +20,15 @@
   </div>
   
 </footer>
+
+  <script src="./src/scripts/video.js"></script>
+  <script src="./src/scripts/scripts.js"></script>
+  <?php if($_SERVER[REQUEST_URI] == "/gallery") {
+    echo '<script src="./src/scripts/jquery.min.js"></script>
+          <script src="./src/slick/slick.min.js"></script>
+          <script src="./src/scripts/gallery.js"></script>';
+  } ?>    
+ 
+</body>
+
+</html>
