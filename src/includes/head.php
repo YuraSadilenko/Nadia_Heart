@@ -13,6 +13,3 @@
   <title>Nadia Heart</title>
 </head>
 
-<script>
-  
-</script>
