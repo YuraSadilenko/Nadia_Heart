@@ -1,0 +1,16 @@
+.btn {
+
+  &__box {
+
+    &--center {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__link {
+    font-family: "Playfair", serif;
+    font-size: 3rem;
+    color: #000;
+  }
+}
