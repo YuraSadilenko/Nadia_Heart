@@ -27,7 +27,24 @@
       <div class="row">
         <div class="col-12">
         <!--About me photo-->
-        <img class="about-me__photo" src="./src/images/about-me.png" alt="my photo" title="about me">
+        <div class="sl">
+          <div class="about-me__img-box">
+            <img class="about-me__photo" src="./src/images/about-me.png" alt="my photo" title="about me">
+          </div>
+          
+          <div class="about-me__img-box">
+            <img class="about-me__photo" src="./src/images/about-me-2.jpg" alt="my photo" title="about me">
+          </div>
+          
+          <div class="about-me__img-box">
+            <img class="about-me__photo" src="./src/images/about-me-3.jpg" alt="my photo" title="about me">
+          </div>
+          
+          <div class="about-me__img-box">
+            <img class="about-me__photo" src="./src/images/about-me-4.jpg" alt="my photo" title="about me">
+          </div>
+          
+        </div>
 
         <p class="text">
           <?php include("./src/texts/articles/en/about.txt"); ?>
@@ -84,18 +101,73 @@
         <div class="btn__box btn__box--center">
           <a href="/gallery" class="btn btn__link btn__link--transparent">To Gallery</a>
         </div>
-        
+
       </div>
     </section>
     <!--CV block end-->
 
-    <!--Portfolio block start-->
+    <!-- Portfolio block start -->
     <section class="portfolio">
-      <div class="container">
+      <div class="container-fluid">
+        <div class="portfolio__box">
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s1.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s2.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s10.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s4.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s7.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s6.jpg" alt="image for portfolio 1">
+          </div>
+        </div>
 
+        <div class="portfolio__box">
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s5.jpg" alt="image for portfolio 1">
+          </div>
+
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s8.jpg" alt="image for portfolio 1">
+          </div>
+
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s9.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s3.jpg" alt="image for portfolio 1">
+          </div>
+
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s11.jpg" alt="image for portfolio 1">
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__wrap"></div>
+            <img src="./src/images/front-gallery/s12.jpg" alt="image for portfolio 1">
+          </div>
+        </div>
       </div>
     </section>
-    <!--Portfolio block end-->
+    <!-- Portfolio block end -->
 
     <!--Payment block start-->
     <section class="payment">

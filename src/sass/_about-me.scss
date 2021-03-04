@@ -7,6 +7,16 @@
 
   &__photo {
     max-width: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
     margin-bottom: 4rem;
+  }
+
+  & .sl &__img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
   }
 }

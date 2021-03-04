@@ -28,7 +28,7 @@ for(var i = 0; i < sliderBoxClose.length; i++) {
   }
 }
 
-//slick config
+//slick config for gallery
   $('.sl').slick({
     slidesToShow: 1,
     slidesToScroll: 1,

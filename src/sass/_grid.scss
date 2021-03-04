@@ -13,6 +13,15 @@
   }
 }
 
+.container-fluid {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
