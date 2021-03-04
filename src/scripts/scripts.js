@@ -34,4 +34,35 @@
       navigationSocials[i].classList.remove('opacity-on');
     }
   }
-})();   
+
+  navigationListLinks.forEach(element => {
+    element.onclick = function() {
+      navigation.style.transform = 'translateX(200%)';
+      navigationLeft.classList.remove('navigation__left--animated');
+      navigationClose.classList.remove('opacity-on');
+  
+      for(let i = 0; i < navigationListLinks.length; i++) {
+        navigationListLinks[i].classList.remove('transform-up');
+      }
+  
+      for(let i = 0; i < navigationSocials.length; i++) {
+        navigationSocials[i].classList.remove('opacity-on');
+      }
+    }
+  });
+
+
+
+  upBtn.onclick = function() {
+    window.scrollTo(pageXOffset, 0);
+  };
+
+  window.addEventListener('scroll', function() {
+    if(upBtn.hidden === (pageYOffset < document.documentElement.clientHeight)) {
+      upBtn.classList.remove('transform-up-btn');
+    } else {
+      upBtn.classList.add('transform-up-btn');
+    }
+  });
+})();
+

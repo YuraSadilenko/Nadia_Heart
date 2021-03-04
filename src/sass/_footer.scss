@@ -4,6 +4,12 @@
 
   &__title {
     text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__descr {
+    font-size: 1.6rem;
+    font-family: "Main Header";
     margin-bottom: 3rem;
   }
 
@@ -21,5 +27,37 @@
         @extend .text-decor-none;
       }
     }
+  }
+
+  &__socials {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Playfair", Arial, sans-serif;
+
+
+    & a:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    & svg {
+      width: 4rem;
+      height: 4rem;
+      opacity: .6;
+      transition: all .3s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    & .footer__email {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  & .or {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
   }
 }   

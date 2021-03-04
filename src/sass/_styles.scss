@@ -37,6 +37,7 @@ $footer-bg: rgb(141, 141, 141);
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -105,3 +106,6 @@ html{
   }
 }
 
+.button-container .custom-button-wrapper #video-detach-button.custom-button {
+  display: none !important;
+}

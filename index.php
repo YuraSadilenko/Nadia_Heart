@@ -1,7 +1,7 @@
 <?php include("./src/includes/head.php"); ?>
 
 <body>
-  <header class="header">
+  <header class="header" id="home">
     <video id="header_video" class="video" autoplay="autoplay" muted>
       <source src="./src/video/header.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
     </video>
@@ -20,7 +20,7 @@
 
   <main>
     <!--About me block start-->
-    <section class="about-me">
+    <section class="about-me" id="aboutMe">
       <div class="container">
       <h2 class="title title__sub about-me__title">About Me</h2>
 
@@ -58,7 +58,7 @@
     <!--About me block end-->
 
     <!--CV block start-->
-    <section class="cv">
+    <section class="cv" id="myCv">
       <div class="container">
         <h2 class="title title__sub cv__title">My CV</h2>
       </div>
@@ -168,15 +168,6 @@
       </div>
     </section>
     <!-- Portfolio block end -->
-
-    <!--Payment block start-->
-    <section class="payment">
-      <div class="container">
-
-      </div>
-    </section>
-    <!--Payment block end-->
-
   </main>
 
   <?php include("./src/includes/footer.php"); ?>

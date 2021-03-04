@@ -12,7 +12,14 @@
     "./src/images/gallery/setEsteticsSimple/flowers/nadiaheart_beauty.jpg",
     "./src/images/gallery/setEsteticsSimple/pigeons/residents of the city_nadia heart.jpg",
     "./src/images/gallery/setMamoryError/memory1/nadiaheart_memory1.jpg",
-    "./src/images/gallery/setMamoryError/memory2/nadiaheart_memory2.jpg"
+    "./src/images/gallery/setMamoryError/memory2/nadiaheart_memory2.jpg",
+
+    "./src/images/gallery/january/nadiaheart_january.jpg",
+    "./src/images/gallery/at-last/nadiaheart_at last.jpg",
+    "./src/images/gallery/book-lover/nadiaheart_book lover.jpg",
+    "./src/images/gallery/heroine/nadiaheart_heroine.jpg",
+    "./src/images/gallery/kyiv-woman/nadiaheart_kyiv woman.jpg",
+    "./src/images/gallery/seventeen/nadiaheart_seventeen.jpg"
   ];
 ?>
 
@@ -40,6 +47,25 @@
   $memoryOne = "./src/images/gallery/setMamoryError/memory1";
   $memoryTwo = "./src/images/gallery/setMamoryError/memory2";
 
+  /* january */
+  $january = "./src/images/gallery/january/";
+
+  /* at last */
+  $atLast = "./src/images/gallery/at-last/";
+
+  /* book lover */
+  $bookLover = "./src/images/gallery/book-lover/";
+
+  /* heroine */
+  $heroine = "./src/images/gallery/heroine/";
+
+  /* kuiv woman */
+  $kyivWoman = "./src/images/gallery/kyiv-woman/";
+
+  /* seventeen */
+  $seventeen = "./src/images/gallery/seventeen/";
+
+
   $dirPathes = [
     $incognitoOne,
     $incognitoTwo,
@@ -52,7 +78,14 @@
     $flowers,
     $pigeons,
     $memoryOne,
-    $memoryTwo
+    $memoryTwo,
+
+    $january,
+    $atLast,
+    $bookLover,
+    $heroine,
+    $kyivWoman,
+    $seventeen
   ];
 ?>
 
@@ -75,9 +108,23 @@
   $flowersFolder = scandir($flowers);
   $pigeonsFolder = scandir($pigeons);
 
-  /* Memory */
-  $memoryFirst = scandir($memoryOne);
-  $memorySecond = scandir($memoryTwo);
+  /* January Folder */
+  $januaryFolder = scandir($january);
+
+  /* At Last Folder */
+  $atLastFolder = scandir($atLast);
+
+  /* Book Lover Folder */
+  $bookLoverFolder = scandir($bookLover);
+
+  /* Heroine Folder */
+  $heroineFolder = scandir($heroine);
+
+  /* Kyiv Woman Folder */
+  $kyivWomanFolder = scandir($kyivWoman);
+
+  /* Seventeen Folder */
+  $seventeenFolder = scandir($seventeen);
 
   $imgPathes = [
     $incognitoFirst,
@@ -91,7 +138,13 @@
     $flowersFolder,
     $pigeonsFolder,
     $memoryFirst,
-    $memorySecond
+    $memorySecond,
+    $januaryFolder,
+    $atLastFolder,
+    $bookLoverFolder,
+    $heroineFolder,
+    $kyivWomanFolder,
+    $seventeenFolder
   ];
 
 ?>
