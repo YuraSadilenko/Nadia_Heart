@@ -8,18 +8,16 @@
     "./src/images/gallery/setHands/silliage/nadiaheart_sillage.jpg",
     "./src/images/gallery/setHands/vera/nadiaheart_vera.jpg",
     "./src/images/gallery/setHands/wine/nadiaheart_wine.jpg",
-    "./src/images/gallery/setEsteticsSimple/dry-roses/mokup-roses.jpg",
-    "./src/images/gallery/setEsteticsSimple/flowers/nadiaheart_beauty.jpg",
-    "./src/images/gallery/setEsteticsSimple/pigeons/residents of the city_nadia heart.jpg",
-    "./src/images/gallery/setMamoryError/memory1/nadiaheart_memory1.jpg",
-    "./src/images/gallery/setMamoryError/memory2/nadiaheart_memory2.jpg",
-
     "./src/images/gallery/january/nadiaheart_january.jpg",
+    "./src/images/gallery/setEsteticsSimple/pigeons/residents of the city_nadia heart.jpg",
+    "./src/images/gallery/setEsteticsSimple/flowers/nadiaheart_beauty.jpg",
     "./src/images/gallery/at-last/nadiaheart_at last.jpg",
     "./src/images/gallery/book-lover/nadiaheart_book lover.jpg",
     "./src/images/gallery/heroine/nadiaheart_heroine.jpg",
     "./src/images/gallery/kyiv-woman/nadiaheart_kyiv woman.jpg",
-    "./src/images/gallery/seventeen/nadiaheart_seventeen.jpg"
+    "./src/images/gallery/seventeen/nadiaheart_seventeen.jpg",
+    "./src/images/gallery/setMamoryError/memory1/nadiaheart_memory1.jpg",
+    "./src/images/gallery/setMamoryError/memory2/nadiaheart_memory2.jpg",
   ];
 ?>
 
@@ -38,17 +36,15 @@
   $vera = "./src/images/gallery/setHands/vera/";
   $wine = "./src/images/gallery/setHands/wine/";
 
+  /* january */
+  $january = "./src/images/gallery/january/";  
+
   /* Simple Estetics */
-  $dryRoses = "./src/images/gallery/setEsteticsSimple/dry-roses/";
-  $flowers = "./src/images/gallery/setEsteticsSimple/flowers/";
   $pigeons = "./src/images/gallery/setEsteticsSimple/pigeons/";
 
-  /* Memory */
-  $memoryOne = "./src/images/gallery/setMamoryError/memory1";
-  $memoryTwo = "./src/images/gallery/setMamoryError/memory2";
 
-  /* january */
-  $january = "./src/images/gallery/january/";
+  /* Flowers */
+  $flowers = "./src/images/gallery/setEsteticsSimple/flowers/";
 
   /* at last */
   $atLast = "./src/images/gallery/at-last/";
@@ -64,6 +60,10 @@
 
   /* seventeen */
   $seventeen = "./src/images/gallery/seventeen/";
+  
+  /* Memory */
+  $memoryOne = "./src/images/gallery/setMamoryError/memory1";
+  $memoryTwo = "./src/images/gallery/setMamoryError/memory2";
 
 
   $dirPathes = [
@@ -74,18 +74,16 @@
     $silliage,
     $vera,
     $wine,
-    $dryRoses,
-    $flowers,
-    $pigeons,
-    $memoryOne,
-    $memoryTwo,
-
     $january,
+    $pigeons,
+    $flowers,
     $atLast,
     $bookLover,
     $heroine,
     $kyivWoman,
-    $seventeen
+    $seventeen,
+    $memoryOne,
+    $memoryTwo
   ];
 ?>
 
@@ -104,7 +102,6 @@
   $wineFolder = scandir($wine);
 
   /* Simple Estetics */
-  $dryRosesFolder = scandir($dryRoses);
   $flowersFolder = scandir($flowers);
   $pigeonsFolder = scandir($pigeons);
 
@@ -126,6 +123,10 @@
   /* Seventeen Folder */
   $seventeenFolder = scandir($seventeen);
 
+  /* Memory Set */
+  $memoryFirst = scandir($memoryOne);
+  $memorySecond = scandir($memoryTwo);
+
   $imgPathes = [
     $incognitoFirst,
     $incognitoSecond,
@@ -134,17 +135,16 @@
     $silliageFolder,
     $veraFolder,
     $wineFolder,
-    $dryRosesFolder,
-    $flowersFolder,
-    $pigeonsFolder,
-    $memoryFirst,
-    $memorySecond,
     $januaryFolder,
+    $pigeonsFolder,   
+    $flowersFolder,
     $atLastFolder,
     $bookLoverFolder,
     $heroineFolder,
     $kyivWomanFolder,
-    $seventeenFolder
+    $seventeenFolder,
+    $memoryFirst,
+    $memorySecond
   ];
 
 ?>

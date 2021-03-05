@@ -166,6 +166,13 @@
 
       &--text {
         font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 100;
+
+
+        &:first-child {
+          font-size: 2.8rem;
+        }
       }
 
     }

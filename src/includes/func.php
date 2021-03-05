@@ -1,5 +1,5 @@
 <?php 
-  function setGalleryBlock($id, $path, $dir, $theme, $description) {
+  function setGalleryBlock($id, $path, $dir, $description) {
       echo "
       <div id='popup-$id' class='slick-box'>
         <span class='slick-box__close'>&#10006;</span>
@@ -18,12 +18,14 @@
         }
       }
       echo "
-      </div>
-      </div>
-      <div class='sl__desr'>
-        <p class='sl__desr--title'>$theme $id</p>
-        <p class='sl__desr--text'>$description $id</p>
         </div>
-      </div>";
+      </div>
+      <div class='sl__desr'>";
+      foreach($description as $key => $value) {
+            echo 
+              "<p class='sl__desr--text'>$description[$key]</p>";
+        }
+      echo "</div>
+    </div>";
   }
 ?>

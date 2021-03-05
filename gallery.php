@@ -1,5 +1,6 @@
 <?php 
 include("./src/includes/variables.php"); 
+include("./src/includes/texts/gallery/gallery-texts.php"); 
 include("./src/includes/head.php");
 include("./src/includes/func.php");
 ?>
@@ -56,8 +57,7 @@ include("./src/includes/func.php");
                     $id,
                     $dirPathes[$id], 
                     $imgPathes[$id], 
-                    'Incognito',
-                    'Text for Incognito'
+                    $textArray[$id]
                   );
                 }
               } 
