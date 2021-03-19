@@ -1,3 +1,11 @@
+<!-- Texts -->
+
+<?php  
+/* English */
+  $aboutUsEn = file_get_contents('./src/includes/texts/articles/en/about.txt'); 
+  $statementEn = file_get_contents('./src/includes/texts/articles/en/statement.txt'); 
+?>
+
 <!-- Gallery first images -->
 <?php 
   $galleryFirst = [

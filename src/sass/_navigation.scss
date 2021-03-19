@@ -56,6 +56,10 @@
             animation-delay: .7s;
             animation-fill-mode: forwards;
         }
+
+        @media(max-width: 768px) {
+            display: none;
+        }
     }
 
     &_video {
@@ -76,6 +80,10 @@
         width: 60%;
         height: 100%;
         background: #fff;
+
+        @media(max-width: 768px) {
+           width: 100%;
+        }
     }
 
     &__list {

@@ -1,4 +1,7 @@
 <?php include("./src/includes/head.php"); ?>
+<?php include("./src/includes/variables.php"); ?>
+<?php include("./src/includes/texts/cv/cv.php"); ?>
+
 
 <body>
   <header class="header" id="home">
@@ -47,9 +50,14 @@
         </div>
 
         <p class="text">
-          <?php include("./src/texts/articles/en/about.txt"); ?>
+          <?php echo nl2br($aboutUsEn); ?>
         </p>
-        
+
+        <h2 class="title title__sub about-me__title">Statement</h2>
+        <p class="text">
+          <?php echo nl2br($statementEn); ?>
+        </p>
+
         </div>
       </div>
 
@@ -64,44 +72,83 @@
       </div>
 
       <div class="container">
+
+      <h2 class="cv__title--sub">Education</h2>
         <div class="cv__box">
-          <div class="cv__item">
-            <p class="cv__date">2020</p>
-            <div class="cv__descr">
-              <h3 class="cv__descr-title title">Title</h3>
-              <p class="cv__descr-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero quibusdam temporibus odit blanditiis. Itaque harum voluptatem ratione voluptatum deserunt laboriosam ducimus fugiat ab, recusandae reiciendis maiores ullam incidunt sequi.</p>
-            </div>
-          </div>
 
-          <div class="cv__item">
-            <p class="cv__date">2020</p>
-            <div class="cv__descr">
-              <h3 class="cv__descr-title title">Title</h3>
-              <p class="cv__descr-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero quibusdam temporibus odit blanditiis. Itaque harum voluptatem ratione voluptatum deserunt laboriosam ducimus fugiat ab, recusandae reiciendis maiores ullam incidunt sequi.</p>
-            </div>
-          </div>
-
-          <div class="cv__item">
-            <p class="cv__date">2020</p>
-            <div class="cv__descr">
-              <h3 class="cv__descr-title title">Title</h3>
-              <p class="cv__descr-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero quibusdam temporibus odit blanditiis. Itaque harum voluptatem ratione voluptatum deserunt laboriosam ducimus fugiat ab, recusandae reiciendis maiores ullam incidunt sequi.</p>
-            </div>
-          </div>
-
-          <div class="cv__item">
-            <p class="cv__date">2020</p>
-            <div class="cv__descr">
-              <h3 class="cv__descr-title title">Title</h3>
-              <p class="cv__descr-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero quibusdam temporibus odit blanditiis. Itaque harum voluptatem ratione voluptatum deserunt laboriosam ducimus fugiat ab, recusandae reiciendis maiores ullam incidunt sequi.</p>
-            </div>
-          </div>
+          <?php 
+          foreach($education as $educationKey => $educationEven) {
+            $year = $educationEven['year'];
+            $event = $educationEven['action'];
+            echo "          
+            <div class='cv__item'>
+              <p class='cv__date'>$year</p>
+              <ul class='cv__descr'>
+                $event
+              </ul>
+            </div>";
+          }
+          ?>
         </div>
 
-        <div class="btn__box btn__box--center">
-          <a href="/gallery" class="btn btn__link btn__link--transparent">To Gallery</a>
+        <h2 class="cv__title--sub">Personal Exhibitions</h2>
+        <div class="cv__box">
+
+          <?php 
+          foreach($ExhibitionPersonal as $educationKey => $educationEven) {
+            $year = $educationEven['year'];
+            $event = $educationEven['action'];
+            echo "          
+            <div class='cv__item'>
+              <p class='cv__date'>$year</p>
+              <ul class='cv__descr'>
+                $event
+              </ul>
+            </div>";
+          }
+          ?>
         </div>
 
+        <h2 class="cv__title--sub">Group Exhibitions</h2>
+        <div class="cv__box">
+        <?php 
+          foreach($ExhibitionGroup as $educationKey => $educationEven) {
+            $year = $educationEven['year'];
+            $event = $educationEven['action'];
+            echo "          
+            <div class='cv__item'>
+              <p class='cv__date'>$year</p>
+              <ul class='cv__descr'>
+                $event
+              </ul>
+            </div>";
+          }
+          ?>
+        </div>
+
+        
+        <h2 class="cv__title--sub">Awards</h2>
+        <div class="cv__box">
+
+          <?php 
+          foreach($awards as $educationKey => $educationEven) {
+            $year = $educationEven['year'];
+            $event = $educationEven['action'];
+            echo "          
+            <div class='cv__item'>
+              <p class='cv__date'>$year</p>
+              <ul class='cv__descr'>
+                $event
+              </ul>
+            </div>";
+          }
+          ?>
+        </div>
+
+      </div>
+
+      <div class="btn__box btn__box--center">
+        <a href="/gallery" class="btn btn__link btn__link--transparent">To Gallery</a>
       </div>
     </section>
     <!--CV block end-->
@@ -171,4 +218,3 @@
   </main>
 
   <?php include("./src/includes/footer.php"); ?>
-

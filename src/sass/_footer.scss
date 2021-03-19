@@ -16,8 +16,18 @@
   &__downside {
     @extend .flex-between;
 
+    @media(max-width: 426px) {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+
     &-box {
       padding: 10px 0;
+
+      @media(max-width: 426px) {
+        margin-top: 3.5rem;
+      }
     }
 
     & a {
@@ -25,6 +35,12 @@
 
       &:hover {
         @extend .text-decor-none;
+      }
+    }
+
+    & .text {
+      @media(max-width: 426px) {
+        margin-bottom: 1rem;
       }
     }
   }

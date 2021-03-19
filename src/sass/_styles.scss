@@ -1,5 +1,5 @@
 $header-font: 'Main Header';
-$main-font: 'Playfair';
+$main-font: 'Main Header';
 $footer-bg: rgb(141, 141, 141);
 
 
@@ -36,7 +36,7 @@ $footer-bg: rgb(141, 141, 141);
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 75.5%;
   scroll-behavior: smooth;
 }
 
@@ -60,6 +60,7 @@ a {
 .text {
   font-family: $main-font;
   font-size: 1.6rem;
+  margin-bottom: 30px;
 }
 
 .opacity-on {
