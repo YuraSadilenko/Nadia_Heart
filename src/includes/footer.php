@@ -1,4 +1,8 @@
-<footer class="footer" id="contactMe">
+<footer class="<?php if($_SERVER[REQUEST_URI] == "/gallery") {
+    echo 'footer footer-gallery';
+  } else {
+    echo 'footer';
+  } ?> " id="contactMe">
   <div class="container">
     <h2 class="title title__sub footer__title">Contacts</h2>  
 
@@ -56,17 +60,18 @@
   
 </footer>
 
-  <script src="./src/scripts/video.js"></script>
   <script src="./src/scripts/scripts.js"></script>
   <?php if($_SERVER[REQUEST_URI] == "/") {
-    echo '<script src="./src/scripts/jquery.min.js"></script>
+    echo '<script src="./src/scripts/video.js"></script>
+          <script src="./src/scripts/jquery.min.js"></script>
           <script src="./src/slick/slick.min.js"></script>
           <script src="./src/scripts/frontpage.js"></script>';
   } ?>   
   <?php if($_SERVER[REQUEST_URI] == "/gallery") {
     echo '<script src="./src/scripts/jquery.min.js"></script>
           <script src="./src/slick/slick.min.js"></script>
-          <script src="./src/scripts/gallery.js"></script>';
+          <script src="./src/scripts/gallery.js"></script>
+          <script src="./src/scripts/blazy.js"></script>';
   } ?>     
 </body>
 

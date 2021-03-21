@@ -1,22 +1,14 @@
+window.onload = function() {
+  var bLazy = new Blazy({
+    selector: 'img', // all images
+    offset: 100 // Loads images 100px before they're visible
+  });
+};
 
 var mainImg = document.querySelectorAll('.gallery__img');
 var slickTest = document.querySelectorAll('.slick-box');
 var sliderItem = document.querySelectorAll('.sl');
 var sliderBoxClose = document.querySelectorAll('.slick-box__close');
-
-//open popup with slick slider and description block  
-// for(var i = 0; i < mainImg.length; i++){
-//   mainImg[i].onclick = () => {
-//     for( var j = 0; j < slickTest.length; j++) {
-//         slickTest[j].classList.add('activated');
-//       }  
-//       $('.slick-slider').slick('setPosition');
-//   }
-// }
-
-
-
-
 
 
 //close button for popup with slick slider and description block

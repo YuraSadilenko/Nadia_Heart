@@ -34,40 +34,40 @@
 <!-- folders with works -->
 <?php
   /* Incognito */
-  $incognitoOne = "./src/images/gallery/setIncognito/incognito1/";
-  $incognitoTwo = "./src/images/gallery/setIncognito/incognito2/";
+  $incognitoOne = "./src/images/gallery/setIncognito/incognito1";
+  $incognitoTwo = "./src/images/gallery/setIncognito/incognito2";
 
   /* Hands */
-  $books = "./src/images/gallery/setHands/books/";
-  $cell = "./src/images/gallery/setHands/cell/";
-  $silliage = "./src/images/gallery/setHands/silliage/";
-  $vera = "./src/images/gallery/setHands/vera/";
-  $wine = "./src/images/gallery/setHands/wine/";
+  $books = "./src/images/gallery/setHands/books";
+  $cell = "./src/images/gallery/setHands/cell";
+  $silliage = "./src/images/gallery/setHands/silliage";
+  $vera = "./src/images/gallery/setHands/vera";
+  $wine = "./src/images/gallery/setHands/wine";
 
   /* january */
-  $january = "./src/images/gallery/january/";  
+  $january = "./src/images/gallery/january";  
 
   /* Simple Estetics */
-  $pigeons = "./src/images/gallery/setEsteticsSimple/pigeons/";
+  $pigeons = "./src/images/gallery/setEsteticsSimple/pigeons";
 
 
   /* Flowers */
-  $flowers = "./src/images/gallery/setEsteticsSimple/flowers/";
+  $flowers = "./src/images/gallery/setEsteticsSimple/flowers";
 
   /* at last */
-  $atLast = "./src/images/gallery/at-last/";
+  $atLast = "./src/images/gallery/at-last";
 
   /* book lover */
-  $bookLover = "./src/images/gallery/book-lover/";
+  $bookLover = "./src/images/gallery/book-lover";
 
   /* heroine */
-  $heroine = "./src/images/gallery/heroine/";
+  $heroine = "./src/images/gallery/heroine";
 
   /* kuiv woman */
-  $kyivWoman = "./src/images/gallery/kyiv-woman/";
+  $kyivWoman = "./src/images/gallery/kyiv-woman";
 
   /* seventeen */
-  $seventeen = "./src/images/gallery/seventeen/";
+  $seventeen = "./src/images/gallery/seventeen";
   
   /* Memory */
   $memoryOne = "./src/images/gallery/setMamoryError/memory1";

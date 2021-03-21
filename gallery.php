@@ -1,8 +1,8 @@
 <?php 
-include("./src/includes/variables.php"); 
-include("./src/includes/texts/gallery/gallery-texts.php"); 
-include("./src/includes/head.php");
-include("./src/includes/func.php");
+  include("./src/includes/variables.php"); 
+  include("./src/includes/texts/gallery/gallery-texts.php"); 
+  include("./src/includes/head.php");
+  include("./src/includes/func.php");
 ?>
 
 <body>
@@ -46,11 +46,11 @@ include("./src/includes/func.php");
         </div>      
 
         <!-- Start Gellary Set -->
-        <div class="gallery-incognito">
+        <div class="gallery-block">
           <div class="gallery__set-box">
             <?php 
               foreach($galleryFirst as $id => $galleryImg) {
-                echo "<img onclick='openPicture(\"#popup-$id\")' class='gallery__img' src='$galleryImg' alt=''>";
+                echo "<img onclick='openPicture(\"#popup-$id\")' class='b-lazy gallery__img' data-src='$galleryImg' alt=''>";
 
                 if($galleryImg !== '.' && $galleryImg !== '..') {
                   setGalleryBlock(
