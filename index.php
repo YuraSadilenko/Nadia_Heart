@@ -15,7 +15,7 @@
     <?php include("./src/includes/navigation.php"); ?>
 
     <a href="/">
-      <img class="header__logo" src="./src/images/logo.jpg" alt="logo" title="Nadia Heart">
+      <img class="header__logo" src="./src/images/logo.webp" alt="logo" title="Nadia Heart">
     </a>
     <h1 class="header__title title">Nadia Heart</h1>
     <p class="header__descr">Graphic Artist</p>
@@ -31,9 +31,6 @@
         <div class="col-12">
         <!--About me photo-->
         <div class="sl">
-          <div class="about-me__img-box">
-            <img class="about-me__photo" src="./src/images/about-me.png" alt="my photo" title="about me">
-          </div>
           
           <div class="about-me__img-box">
             <img class="about-me__photo" src="./src/images/about-me-2.jpg" alt="my photo" title="about me">
@@ -159,11 +156,11 @@
         <div class="portfolio__box">
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s1.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s1.png" alt="image for portfolio 1">
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s2.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s2.png" alt="image for portfolio 1">
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
@@ -171,36 +168,36 @@
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s4.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s4.png" alt="image for portfolio 1">
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s7.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s7.png" alt="image for portfolio 1">
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s6.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s6.png" alt="image for portfolio 1">
           </div>
         </div>
 
         <div class="portfolio__box">
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s5.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s5.png" alt="image for portfolio 1">
           </div>
 
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s8.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s8.png" alt="image for portfolio 1">
           </div>
 
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s9.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s9.png" alt="image for portfolio 1">
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s3.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s3.png" alt="image for portfolio 1">
           </div>
 
           <div class="portfolio__item">
@@ -209,7 +206,7 @@
           </div>
           <div class="portfolio__item">
             <div class="portfolio__wrap"></div>
-            <img src="./src/images/front-gallery/s12.jpg" alt="image for portfolio 1">
+            <img src="./src/images/front-gallery/s12.png" alt="image for portfolio 1">
           </div>
         </div>
       </div>

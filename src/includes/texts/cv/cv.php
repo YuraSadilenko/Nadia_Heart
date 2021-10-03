@@ -25,6 +25,16 @@ $ExhibitionPersonal = [
 
 $ExhibitionGroup = [
   [
+    "year" => "2021",
+    "action" => "
+    <li>Art project “Kniga“, Golden Gate, Kyiv</li>
+    <li>5th festival of actual art Mykolaiv ART Week: CHANGE, Mykolaiv</li>
+    <li>Modern graphic exhibition “Art parallels“, Сenter of Ukrainian culture and art, Kyiv</li>    
+    <li>“Kyiv based“, Keller Bar, Kyiv</li>
+    <li>“Japanish“, FafGallery, Kyiv</li>
+    ",
+  ],
+  [
     "year" => "2020",
     "action" => "
     <li>The fifth Macao International Contemporary exhibition, China;</li>

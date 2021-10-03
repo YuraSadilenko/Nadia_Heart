@@ -1,5 +1,11 @@
 <?php
-  $textArray = [
+  $picturesTextArray = [
+    [
+      "name" => "The residents of the city",
+      "date" => "2020",
+      "size" => "57 x 35,5 cm",
+      "materials" => "Arches paper, liner, watercolor"
+    ],
     [
       "name" => "Incognito",
       "date" => "2020",
@@ -49,12 +55,6 @@
       "materials" => "Arches paper, liner, ink"
     ],
     [
-      "name" => "The residents of the city",
-      "date" => "2020",
-      "size" => "57 x 35,5 cm",
-      "materials" => "Arches paper, liner, watercolor"
-    ],
-    [
       "name" => "Days of beauty gone",
       "date" => "2020",
       "size" => "31 x 28 cm",
@@ -84,23 +84,39 @@
       "size" => "100 x 64 cm",
       "materials" => "Arches paper, liner, ink"
     ],
-    [
-      "name" => "17",
-      "date" => "2021",
-      "size" => "56,5 x 38 cm",
-      "materials" => "Arches paper, liner, ink"
-    ],
-    [
-      "name" => "Memory failure",
-      "date" => "2021",
-      "size" => "28 x 18,5 cm",
-      "materials" => "Watercolor paper, whatman, liner, watercolor"
-    ],
-    [
-      "name" => "Memory failure 2",
-      "date" => "2021",
-      "size" => "26,5 x 26,5 cm",
-      "materials" => "Watercolor paper, whatman, liner, watercolor"
-    ]
+    // [
+    //   "name" => "17",
+    //   "date" => "2021",
+    //   "size" => "56,5 x 38 cm",
+    //   "materials" => "Arches paper, liner, ink"
+    // ],
+    // [
+    //   "name" => "Memory failure",
+    //   "date" => "2021",
+    //   "size" => "28 x 18,5 cm",
+    //   "materials" => "Watercolor paper, whatman, liner, watercolor"
+    // ],
+    // [
+    //   "name" => "Memory failure 2",
+    //   "date" => "2021",
+    //   "size" => "26,5 x 26,5 cm",
+    //   "materials" => "Watercolor paper, whatman, liner, watercolor"
+    // ]
+
   ];
+
+  $installationTextArray =  [
+    [
+      "name" => "Another Life",
+      "date" => "2021",
+      "size" => "160 x 60 x 35",
+      "materials" => "Plywood, spackling, paint"
+    ],
+        [
+      "name" => "Kiss",
+      "date" => "2021",
+      "size" => "400 x 220",
+      "materials" => "Acrilic on fabric"
+    ]
+  ]
 ?>

@@ -16,9 +16,3 @@ $('.sl').slick({
   pauseOnHover: false,
   focusOnSelect: false,
 });
-
-(() => {
-  $('.portfolio__wrap').click(() => {
-    window.location.href = './gallery';
-  });
-})()

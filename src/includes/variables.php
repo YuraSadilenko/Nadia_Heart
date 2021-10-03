@@ -6,9 +6,52 @@
   $statementEn = file_get_contents('./src/includes/texts/articles/en/statement.txt'); 
 ?>
 
-<!-- Gallery first images -->
+<!-- INSTALLATIONS BLOCK -->
+
+<?php
+/* Instalations */
+  $galleryFirstInstallations = [
+    "./src/images/gallery/golden-gate/golden-gate.jpg",
+    "./src/images/gallery/keller-exhibition/kiss.jpg"
+  ];
+
+
+
+/* folders with works 
+
+  /* Golden Gate */
+  $goldenGate = "./src/images/gallery/golden-gate";
+
+  /* Keller Exhibition */
+  $kellerExhibition = "./src/images/gallery/keller-exhibition";
+
+
+  $dirInstallationPathes = [
+    $goldenGate,
+    $kellerExhibition
+  ];
+
+
+ /* Variables for images files
+
+  /* Golden Gate */
+  $goldenGateFolder = scandir($goldenGate);
+
+  /* Keller Exhibition */
+  $kellerExhibitionFolder = scandir($kellerExhibition);
+
+  $imgInstallationPathes = [
+    $goldenGateFolder,
+    $kellerExhibitionFolder
+  ];
+
+?>
+
+
+<!-- Gallery first pictures images -->
 <?php 
-  $galleryFirst = [
+  $galleryFirstDrawings = [
+    "./src/images/gallery/setEsteticsSimple/pigeons/residents of the city_nadia heart.jpg",
     "./src/images/gallery/setIncognito/incognito1/nadiaheart_incognito.jpg",
     "./src/images/gallery/setIncognito/incognito2/nadiaheart_incognito2.jpg",
     "./src/images/gallery/setHands/books/nadiaherat_bookmarket.jpg",
@@ -17,15 +60,14 @@
     "./src/images/gallery/setHands/vera/nadiaheart_vera.jpg",
     "./src/images/gallery/setHands/wine/nadiaheart_wine.jpg",
     "./src/images/gallery/january/nadiaheart_january.jpg",
-    "./src/images/gallery/setEsteticsSimple/pigeons/residents of the city_nadia heart.jpg",
     "./src/images/gallery/setEsteticsSimple/flowers/nadiaheart_beauty.jpg",
     "./src/images/gallery/at-last/nadiaheart_at last.jpg",
     "./src/images/gallery/book-lover/nadiaheart_book lover.jpg",
     "./src/images/gallery/heroine/nadiaheart_heroine.jpg",
     "./src/images/gallery/kyiv-woman/nadiaheart_kyiv woman.jpg",
-    "./src/images/gallery/seventeen/nadiaheart_seventeen.jpg",
-    "./src/images/gallery/setMamoryError/memory1/nadiaheart_memory1.jpg",
-    "./src/images/gallery/setMamoryError/memory2/nadiaheart_memory2.jpg",
+    // "./src/images/gallery/seventeen/nadiaheart_seventeen.jpg",
+    // "./src/images/gallery/setMamoryError/memory1/nadiaheart_memory1.jpg",
+    // "./src/images/gallery/setMamoryError/memory2/nadiaheart_memory2.jpg"
   ];
 ?>
 
@@ -33,6 +75,9 @@
 
 <!-- folders with works -->
 <?php
+  /* Pigeons */
+  $pigeons = "./src/images/gallery/setEsteticsSimple/pigeons";
+
   /* Incognito */
   $incognitoOne = "./src/images/gallery/setIncognito/incognito1";
   $incognitoTwo = "./src/images/gallery/setIncognito/incognito2";
@@ -46,10 +91,6 @@
 
   /* january */
   $january = "./src/images/gallery/january";  
-
-  /* Simple Estetics */
-  $pigeons = "./src/images/gallery/setEsteticsSimple/pigeons";
-
 
   /* Flowers */
   $flowers = "./src/images/gallery/setEsteticsSimple/flowers";
@@ -66,15 +107,16 @@
   /* kuiv woman */
   $kyivWoman = "./src/images/gallery/kyiv-woman";
 
-  /* seventeen */
-  $seventeen = "./src/images/gallery/seventeen";
+  // /* seventeen */
+  // $seventeen = "./src/images/gallery/seventeen";
   
-  /* Memory */
-  $memoryOne = "./src/images/gallery/setMamoryError/memory1";
-  $memoryTwo = "./src/images/gallery/setMamoryError/memory2";
+  // /* Memory */
+  // $memoryOne = "./src/images/gallery/setMamoryError/memory1";
+  // $memoryTwo = "./src/images/gallery/setMamoryError/memory2";
 
 
   $dirPathes = [
+    $pigeons,
     $incognitoOne,
     $incognitoTwo,
     $books,
@@ -83,21 +125,23 @@
     $vera,
     $wine,
     $january,
-    $pigeons,
     $flowers,
     $atLast,
     $bookLover,
     $heroine,
     $kyivWoman,
-    $seventeen,
-    $memoryOne,
-    $memoryTwo
+    // $seventeen,
+    // $memoryOne,
+    // $memoryTwo,
   ];
 ?>
 
 
 <!-- Variables for images files -->
 <?php 
+  /* Pigeons */
+  $pigeonsFolder = scandir($pigeons);
+
   /* Incognito */
   $incognitoFirst = scandir($incognitoOne);
   $incognitoSecond = scandir($incognitoTwo);
@@ -111,7 +155,6 @@
 
   /* Simple Estetics */
   $flowersFolder = scandir($flowers);
-  $pigeonsFolder = scandir($pigeons);
 
   /* January Folder */
   $januaryFolder = scandir($january);
@@ -128,14 +171,15 @@
   /* Kyiv Woman Folder */
   $kyivWomanFolder = scandir($kyivWoman);
 
-  /* Seventeen Folder */
-  $seventeenFolder = scandir($seventeen);
+  // /* Seventeen Folder */
+  // $seventeenFolder = scandir($seventeen);
 
-  /* Memory Set */
-  $memoryFirst = scandir($memoryOne);
-  $memorySecond = scandir($memoryTwo);
+  // /* Memory Set */
+  // $memoryFirst = scandir($memoryOne);
+  // $memorySecond = scandir($memoryTwo);
 
   $imgPathes = [
+    $pigeonsFolder, 
     $incognitoFirst,
     $incognitoSecond,
     $booksFolder,
@@ -143,16 +187,16 @@
     $silliageFolder,
     $veraFolder,
     $wineFolder,
-    $januaryFolder,
-    $pigeonsFolder,   
+    $januaryFolder,    
     $flowersFolder,
     $atLastFolder,
     $bookLoverFolder,
     $heroineFolder,
     $kyivWomanFolder,
-    $seventeenFolder,
-    $memoryFirst,
-    $memorySecond
+    // $seventeenFolder,
+    // $memoryFirst,
+    // $memorySecond
   ];
 
 ?>
+

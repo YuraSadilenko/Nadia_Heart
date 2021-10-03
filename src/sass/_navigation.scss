@@ -88,8 +88,7 @@
 
     &__list {
         list-style: none;
-        font-family: $main-font;
-        
+        font-family: $main-font;        
 
         &--item {
             position: relative;
@@ -102,7 +101,7 @@
                 color: #000;
                 text-decoration: none;
                 font-size: 4rem;
-                transform: translateY(100%);
+                transform: translateY(120%);
             }
 
             &::after {

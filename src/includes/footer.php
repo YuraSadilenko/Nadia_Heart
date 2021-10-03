@@ -8,7 +8,7 @@
 
     <div class="footer__socials">
       <p class="footer__descr">Feel free to write to my E-mail or in socials:</p>
-      <p class="footer__email">nadia_heart@gmail.com</p>
+      <p class="footer__email">artnadiaheart@gmail.com</p>
       <p class="or">OR</p>
 
       <a href="https://www.instagram.com/nadia.heart/">

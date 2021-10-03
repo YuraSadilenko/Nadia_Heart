@@ -11,6 +11,11 @@
     text-align: center;
     font-size: 6.5rem;
     margin: 0 auto;
+
+    &--secondary {
+      margin-bottom: 40px;
+      font-size: 5rem;
+    }
   }
 
   &__sub-title {

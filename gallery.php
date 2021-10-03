@@ -43,28 +43,53 @@
 
         <div class="row">
           <h1 class="gallery__title title">Gallery</h1>
-        </div>      
+        </div>    
+        
+        <h2 class="gallery__title gallery__title--secondary title">Installations</h2>
 
-        <!-- Start Gellary Set -->
+
+        <div class="gallery__set-box">
+          <?php 
+            foreach($galleryFirstInstallations as $id => $galleryImg) {
+              echo "<img onclick='openPicture(\"#popup-installations-$id\")' class='b-lazy gallery__img' data-src='$galleryImg' alt=''>";
+
+              if($galleryImg !== '.' && $galleryImg !== '..') {
+                setGalleryInstallationsBlock(
+                  $id,
+                  $dirInstallationPathes[$id], 
+                  $imgInstallationPathes[$id], 
+                  $installationTextArray[$id]
+                );
+              }
+            } 
+          ?>
+        </div>
+
+        <h2 class="gallery__title gallery__title--secondary title">Drawings</h2>
+
+
+        <!-- Start Gellary Drawings Set -->
         <div class="gallery-block">
           <div class="gallery__set-box">
             <?php 
-              foreach($galleryFirst as $id => $galleryImg) {
+              foreach($galleryFirstDrawings as $id => $galleryImg) {
                 echo "<img onclick='openPicture(\"#popup-$id\")' class='b-lazy gallery__img' data-src='$galleryImg' alt=''>";
 
                 if($galleryImg !== '.' && $galleryImg !== '..') {
-                  setGalleryBlock(
+                  setGalleryDrawingsBlock(
                     $id,
                     $dirPathes[$id], 
                     $imgPathes[$id], 
-                    $textArray[$id]
+                    $picturesTextArray[$id]
                   );
                 }
               } 
             ?>
           </div>
+
+
         </div>
-        <!-- End Gellary Set -->
+        <!-- End Gellary Drawings Set -->
 
       </div>
     </div> 

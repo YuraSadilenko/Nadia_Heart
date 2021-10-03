@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="notranslate" translate="no">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  
+  <!-- Disable translate opportunity to google autotranslate -->
+  <meta name="google" content="notranslate">
 
   <?php if($_SERVER[REQUEST_URI] == "/") {
-    echo '<meta name="description" content="Nadia Heart - artist, graphic artist, work in inkart, lineart and grisaille techniques. Achromatic colors. Ukraine artist.">';
+    echo '<meta name="description" content="Nadia Heart - graphic artist from Kyiv, Ukraine. Original artworks in lineart and grisalle techniques.">';
   } elseif($_SERVER[REQUEST_URI] == "/gallery") {
-    echo '<meta name="description" content="Art Gallery, Nadia`s Heart Gellery, graphic artworks, lineart, grisaille techniques">';
+    echo '<meta name="description" content="Nadia Heart - graphic artist from Kyiv, Ukraine. Original artworks in lineart and grisalle techniques. Gallery, artworks.">';
   } 
   ?>
 
@@ -36,25 +39,23 @@
   <!-- Preload for Each Page -->
   <?php if($_SERVER[REQUEST_URI] == "/") {
     echo '
-      <link rel="preload" href="./src/video/header.mp4" as="video" type="video/mp4">
-
-      <link rel="preload" href="./src/images/about-me.png" as="image">
+      <link rel="preload" href="./src/images/about-me.jpg" as="image">
       <link rel="preload" href="./src/images/about-me-2.jpg" as="image">
       <link rel="preload" href="./src/images/about-me-3.jpg" as="image">
       <link rel="preload" href="./src/images/about-me-4.jpg" as="image">
 
-      <link rel="preload" href="./src/images/front-gallery/s1.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s2.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s3.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s4.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s5.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s6.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s7.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s8.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s9.jpg" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s1.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s2.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s3.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s4.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s5.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s6.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s7.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s8.png" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s9.png" as="image">
       <link rel="preload" href="./src/images/front-gallery/s10.jpg" as="image">
       <link rel="preload" href="./src/images/front-gallery/s11.jpg" as="image">
-      <link rel="preload" href="./src/images/front-gallery/s12.jpg" as="image">
+      <link rel="preload" href="./src/images/front-gallery/s12.png" as="image">
     ';
 
   } elseif($_SERVER[REQUEST_URI] == "/gallery") {

@@ -1,2 +1,4 @@
 User-agent: *
 Allow: *
+
+Sitemap: https://nadia-heart.com/sitemap.xml
